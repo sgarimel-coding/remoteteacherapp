@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.loginInput {
+  height: 300px;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  border: solid;
+  padding: 15px 15px;
+  align-items: center;
+}
+
+
+.loginInput input, .loginInput textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.loginInput button {
+  background: #f1356d;
+  color: white;
+}
